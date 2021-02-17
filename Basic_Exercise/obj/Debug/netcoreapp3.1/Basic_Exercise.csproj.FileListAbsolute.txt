@@ -1,0 +1,13 @@
+C:\Users\duk15\source\repos\HobbyProjekt\Basic_Exercise\Basic_Exercise\bin\Debug\netcoreapp3.1\Basic_Exercise.exe
+C:\Users\duk15\source\repos\HobbyProjekt\Basic_Exercise\Basic_Exercise\bin\Debug\netcoreapp3.1\Basic_Exercise.deps.json
+C:\Users\duk15\source\repos\HobbyProjekt\Basic_Exercise\Basic_Exercise\bin\Debug\netcoreapp3.1\Basic_Exercise.runtimeconfig.json
+C:\Users\duk15\source\repos\HobbyProjekt\Basic_Exercise\Basic_Exercise\bin\Debug\netcoreapp3.1\Basic_Exercise.runtimeconfig.dev.json
+C:\Users\duk15\source\repos\HobbyProjekt\Basic_Exercise\Basic_Exercise\bin\Debug\netcoreapp3.1\Basic_Exercise.dll
+C:\Users\duk15\source\repos\HobbyProjekt\Basic_Exercise\Basic_Exercise\bin\Debug\netcoreapp3.1\Basic_Exercise.pdb
+C:\Users\duk15\source\repos\HobbyProjekt\Basic_Exercise\Basic_Exercise\obj\Debug\netcoreapp3.1\Basic_Exercise.csprojAssemblyReference.cache
+C:\Users\duk15\source\repos\HobbyProjekt\Basic_Exercise\Basic_Exercise\obj\Debug\netcoreapp3.1\Basic_Exercise.AssemblyInfoInputs.cache
+C:\Users\duk15\source\repos\HobbyProjekt\Basic_Exercise\Basic_Exercise\obj\Debug\netcoreapp3.1\Basic_Exercise.AssemblyInfo.cs
+C:\Users\duk15\source\repos\HobbyProjekt\Basic_Exercise\Basic_Exercise\obj\Debug\netcoreapp3.1\Basic_Exercise.csproj.CoreCompileInputs.cache
+C:\Users\duk15\source\repos\HobbyProjekt\Basic_Exercise\Basic_Exercise\obj\Debug\netcoreapp3.1\Basic_Exercise.dll
+C:\Users\duk15\source\repos\HobbyProjekt\Basic_Exercise\Basic_Exercise\obj\Debug\netcoreapp3.1\Basic_Exercise.pdb
+C:\Users\duk15\source\repos\HobbyProjekt\Basic_Exercise\Basic_Exercise\obj\Debug\netcoreapp3.1\Basic_Exercise.genruntimeconfig.cache
