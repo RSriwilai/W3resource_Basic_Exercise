@@ -174,12 +174,99 @@ namespace Basic_Exercise
                 Console.Write(chars + " ");
             }
         }
+         public static void ArrayBubbleSorter_12()
+         {
+            Console.Write("Input number of strings: ");
+            int numOfStrings = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            Console.WriteLine($"input {numOfStrings} strings below");
+            string[] stringArray = new string[numOfStrings];
+            for (int i = 0; i < stringArray.Length; i++)
+            {
+                Console.Write($"string {i +1}: ");
+                stringArray[i] = Console.ReadLine();
+            }
+
+            string[] sortedString = stringArray.OrderBy(s => s).ToArray();
+
+            Console.WriteLine();
+            Console.WriteLine("After sorting the array appears like: ");
+            foreach(var elements in sortedString)
+            {
+                Console.WriteLine(elements);
+            }
+         }
+
+        public static void SubStringFinder_13()
+        {
+            string str;
+            char[] arr1;
+            int pos, l, ln, c = 0;
+
+            Console.Write("\n\nExtract a substring from a given string:\n");
+            Console.Write("--------------------------------------------\n");
+
+            Console.Write("Input the string : ");
+            str = Console.ReadLine();
+            ln = str.Length;
+            arr1 = str.ToCharArray(0, ln);
+
+            Console.Write("Input the position to start extraction :");
+            pos = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Input the length of substring :");
+            l = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("The substring retrieve from the string is : ");
+            while (c < l)
+            {
+                Console.Write(arr1[pos + c - 1]);
+                c++;
+            }
+            Console.Write("\n\n");
+        }
+
+        public static void SubStringChecker_14()
+        {
+            Console.Write("Input the string: ");
+            string userInput = Console.ReadLine();
+
+            Console.Write("Input the substring: ");
+            string subString = Console.ReadLine();
+
+            if (userInput.Contains(subString))
+            {
+                Console.WriteLine("The substring exists in the string");
+            }
+           else
+            {
+                Console.WriteLine("The substring does not exists in the string");
+            }
+        }
+
+        public static void StringLowUpConverter_15()
+        {
+            Console.Write("Input the string: ");
+            var userInput = Console.ReadLine();
+            var charArray = userInput.ToCharArray();
+
+            foreach (var elements in charArray)
+            {
+                if (Char.IsUpper(elements))
+                {
+                    Console.Write(Char.ToLower(elements));
+                }
+                else
+                {
+                    Console.Write(Char.ToUpper(elements));
+                }
+            }
+        }
 
         static void Main(string[] args)
         {
-
-            ArraySorterAsc_11();
-
+            StringLowUpConverter_15();
         }
     }
 }
